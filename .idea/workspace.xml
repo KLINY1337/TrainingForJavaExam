@@ -7,6 +7,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -56,8 +64,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673886816043</updated>
-      <workItem from="1673886817750" duration="1722000" />
+      <workItem from="1673886817750" duration="4120000" />
     </task>
+    <task id="LOCAL-00001" summary="Билет 15 (Напишите метод splitStack, который принимает стек целых чисел...)">
+      <created>1673888968385</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673888968385</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,5 +89,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Билет 15 (Напишите метод splitStack, который принимает стек целых чисел...)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Билет 15 (Напишите метод splitStack, который принимает стек целых чисел...)" />
   </component>
 </project>
