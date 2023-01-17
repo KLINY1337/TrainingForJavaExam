@@ -3,12 +3,36 @@ import ticket22.UniversalClassForSorter;
 import ticket25.CustomStackOnList;
 import ticket26.CustomArrayList;
 import ticket29.CustomStack;
+import ticket9.LinkedIntList;
 
 import java.util.*;
 
 public class Main {
-    public static void main(String[] args) {
-
+    public static void main(String[] args) throws CloneNotSupportedException {
+        LinkedIntList list=new LinkedIntList();
+        list.add(14);
+        list.add(8);
+        list.add(14);
+        list.add(12);
+        list.add(1);
+        list.add(14);
+        list.add(11);
+        list.add(8);
+        list.add(8);
+        list.add(10);
+        list.add(4);
+        list.add(9);
+        list.add(1);
+        list.add(2);
+        list.add(5);
+        list.add(2);
+        list.add(4);
+        list.add(12);
+        list.add(12);
+        list.printList();
+        System.out.println("\n");
+        list.removeDuplicates();
+        list.printList();
     }
 
     //Билет 15
