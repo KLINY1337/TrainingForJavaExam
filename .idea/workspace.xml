@@ -67,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673886816043</updated>
       <workItem from="1673886817750" duration="5144000" />
-      <workItem from="1673936160031" duration="9552000" />
+      <workItem from="1673936160031" duration="10804000" />
     </task>
     <task id="LOCAL-00001" summary="Билет 15 (Напишите метод splitStack, который принимает стек целых чисел...)">
       <created>1673888968385</created>
@@ -111,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673945726885</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Билет 21 (Напишите универсальный класс для реализации алгоритмов поиска...)">
+      <created>1673946967355</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673946967355</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +142,7 @@
     <MESSAGE value="Билет 26 (Напишите реализацию структуры ArrayList на списке)" />
     <MESSAGE value="Билет 25 (Напишите реализацию структуры данных Stack на списке)" />
     <MESSAGE value="Билет 22 (Напишите универсальный класс для реализации алгоритмов сортировок...)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Билет 22 (Напишите универсальный класс для реализации алгоритмов сортировок...)" />
+    <MESSAGE value="Билет 21 (Напишите универсальный класс для реализации алгоритмов поиска...)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Билет 21 (Напишите универсальный класс для реализации алгоритмов поиска...)" />
   </component>
 </project>

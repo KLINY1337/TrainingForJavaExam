@@ -8,9 +8,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        UniversalClassForSearcher searcher = new UniversalClassForSearcher();
-        Integer[] array = new Integer[]{3,2,1};
-        System.out.println(searcher.search(array,1));
+
     }
 
     //Билет 15
@@ -39,5 +37,27 @@ public class Main {
             }
         }
         return stack;
+    }
+
+    //Билет 14
+    public static boolean equals(Stack<Integer> stack1, Stack<Integer> stack2){
+        Stack<Integer> container = new Stack<>();
+
+        //return stack1.equals(stack2);
+
+        if (stack1.size() != stack2.size()) return false;
+
+        while (!stack1.isEmpty()){
+            if (stack1.peek() == stack2.peek()){
+                container.push(stack1.pop());
+                container.push(stack2.pop());
+            }
+            else return false;
+        }
+        while(!container.isEmpty()){
+            stack2.push(container.pop());
+            stack1.push(container.pop());
+        }
+        return true;
     }
 }
