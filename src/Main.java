@@ -9,30 +9,15 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
-        LinkedIntList list=new LinkedIntList();
-        list.add(14);
-        list.add(8);
-        list.add(14);
-        list.add(12);
-        list.add(1);
-        list.add(14);
-        list.add(11);
-        list.add(8);
-        list.add(8);
-        list.add(10);
-        list.add(4);
-        list.add(9);
-        list.add(1);
-        list.add(2);
-        list.add(5);
-        list.add(2);
-        list.add(4);
-        list.add(12);
-        list.add(12);
-        list.printList();
-        System.out.println("\n");
-        list.removeDuplicates();
-        list.printList();
+        Map<Integer, String> map = new HashMap<>();
+        map.put(1, "string 1");
+        map.put(2, "string 2");
+        map.put(3, "string 3");
+        map.put(4, "string 3");
+
+        Map<String, Integer> map2 = reverse(map);
+        System.out.println(map.toString());
+        System.out.println(map2.toString());
     }
 
     //Билет 15
@@ -83,5 +68,25 @@ public class Main {
             stack1.push(container.pop());
         }
         return true;
+    }
+    //Билет 4
+    public boolean hasOdd(Set<Integer> set){
+        if (set.isEmpty()) return false;
+
+        for (Integer el : set){
+            if (el%2!=0) return true;
+        }
+        return false;
+    }
+
+    public static Map<String, Integer> reverse(Map<Integer,String> map){
+        Map<String,Integer> newMap = new HashMap<>();
+
+
+        for (Map.Entry<Integer,String> entry : map.entrySet()){
+            int key = entry.getKey(); String value = entry.getValue();
+            newMap.put(value,key);
+        }
+        return newMap;
     }
 }

@@ -67,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673886816043</updated>
       <workItem from="1673886817750" duration="5144000" />
-      <workItem from="1673936160031" duration="17153000" />
+      <workItem from="1673936160031" duration="20047000" />
     </task>
     <task id="LOCAL-00001" summary="Билет 15 (Напишите метод splitStack, который принимает стек целых чисел...)">
       <created>1673888968385</created>
@@ -125,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673948240273</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Билет 9 (Напишите метод removeDuplicates, который можно добавить в класс LinkedIntList...)">
+      <created>1673954500150</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673954500150</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +158,8 @@
     <MESSAGE value="Билет 22 (Напишите универсальный класс для реализации алгоритмов сортировок...)" />
     <MESSAGE value="Билет 21 (Напишите универсальный класс для реализации алгоритмов поиска...)" />
     <MESSAGE value="Билет 14 (Напишите метод equals...)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Билет 14 (Напишите метод equals...)" />
+    <MESSAGE value="Билет 9 (Напишите метод removeDuplicates, который можно добавить в класс LinkedIntList...)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Билет 9 (Напишите метод removeDuplicates, который можно добавить в класс LinkedIntList...)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
