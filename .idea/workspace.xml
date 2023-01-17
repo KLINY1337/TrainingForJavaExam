@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f44013b-db42-4be5-bdfd-f814406e64b4" name="Changes" comment="" />
+    <list default="true" id="6f44013b-db42-4be5-bdfd-f814406e64b4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,21 +29,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -64,7 +66,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673886816043</updated>
-      <workItem from="1673886817750" duration="4120000" />
+      <workItem from="1673886817750" duration="5144000" />
+      <workItem from="1673936160031" duration="3854000" />
     </task>
     <task id="LOCAL-00001" summary="Билет 15 (Напишите метод splitStack, который принимает стек целых чисел...)">
       <created>1673888968385</created>
@@ -73,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673888968385</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Билет 23 (Разработайте класс иерархию классов Геометрическая фигура...)">
+      <created>1673891001349</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673891001349</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +102,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Билет 15 (Напишите метод splitStack, который принимает стек целых чисел...)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Билет 15 (Напишите метод splitStack, который принимает стек целых чисел...)" />
+    <MESSAGE value="Билет 23 (Разработайте класс иерархию классов Геометрическая фигура...)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Билет 23 (Разработайте класс иерархию классов Геометрическая фигура...)" />
   </component>
 </project>

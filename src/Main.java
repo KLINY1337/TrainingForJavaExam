@@ -1,18 +1,12 @@
-import ticket23.CircleFactory;
-import ticket23.GeomFiguresFactory;
-import ticket23.RectangleFactory;
+import ticket29.CustomStack;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
-        GeomFiguresFactory factory1, factory2;
-        factory1 = new CircleFactory();
-        factory2 = new RectangleFactory();
-        factory1.createFigure(); // Круг создан
-        factory2.createFigure(); // Прямоугольник создан
 
     }
 
