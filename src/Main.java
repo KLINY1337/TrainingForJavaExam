@@ -1,3 +1,4 @@
+import ticket21.UniversalClassForSearcher;
 import ticket22.UniversalClassForSorter;
 import ticket25.CustomStackOnList;
 import ticket26.CustomArrayList;
@@ -7,16 +8,9 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        /*UniversalClassForSorter sorter = new UniversalClassForSorter();
-        Object[] arr = new Object[]{3,2,1};
-        System.out.println(Arrays.toString(arr));
-        sorter.sort(arr, new UniversalClassForSorter.ComparatorRealizer());
-        System.out.println(Arrays.toString(arr));*/
-        UniversalClassForSorter sorter=new UniversalClassForSorter();
-        Integer[] arr = new Integer[]{3,2,1};
-        System.out.println(Arrays.toString(arr));
-        sorter.sort(arr);
-        System.out.println(Arrays.toString(arr));
+        UniversalClassForSearcher searcher = new UniversalClassForSearcher();
+        Integer[] array = new Integer[]{3,2,1};
+        System.out.println(searcher.search(array,1));
     }
 
     //Билет 15
