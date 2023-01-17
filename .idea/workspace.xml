@@ -67,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673886816043</updated>
       <workItem from="1673886817750" duration="5144000" />
-      <workItem from="1673936160031" duration="5589000" />
+      <workItem from="1673936160031" duration="8469000" />
     </task>
     <task id="LOCAL-00001" summary="Билет 15 (Напишите метод splitStack, который принимает стек целых чисел...)">
       <created>1673888968385</created>
@@ -97,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673942127379</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Билет 25 (Напишите реализацию структуры данных Stack на списке)">
+      <created>1673942802406</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673942802406</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +126,7 @@
     <MESSAGE value="Билет 23 (Разработайте класс иерархию классов Геометрическая фигура...)" />
     <MESSAGE value="Билет 29 (Напишите реализацию структуры данных Stack на массиве. При...)" />
     <MESSAGE value="Билет 26 (Напишите реализацию структуры ArrayList на списке)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Билет 26 (Напишите реализацию структуры ArrayList на списке)" />
+    <MESSAGE value="Билет 25 (Напишите реализацию структуры данных Stack на списке)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Билет 25 (Напишите реализацию структуры данных Stack на списке)" />
   </component>
 </project>

@@ -1,29 +1,22 @@
+import ticket22.UniversalClassForSorter;
 import ticket25.CustomStackOnList;
 import ticket26.CustomArrayList;
 import ticket29.CustomStack;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        CustomStackOnList<Integer> stack = new CustomStackOnList<>();
-
-        stack.push(5);
-        stack.push(6);
-        stack.push(1);
-        stack.push(2);
-        System.out.println(stack.getArray().toString());
-
-        System.out.println(stack.peek());
-
-        stack.pop();
-        System.out.println(stack.peek());
-        stack.pop();
-
-        System.out.println(stack.getArray().toString());
+        /*UniversalClassForSorter sorter = new UniversalClassForSorter();
+        Object[] arr = new Object[]{3,2,1};
+        System.out.println(Arrays.toString(arr));
+        sorter.sort(arr, new UniversalClassForSorter.ComparatorRealizer());
+        System.out.println(Arrays.toString(arr));*/
+        UniversalClassForSorter sorter=new UniversalClassForSorter();
+        Integer[] arr = new Integer[]{3,2,1};
+        System.out.println(Arrays.toString(arr));
+        sorter.sort(arr);
+        System.out.println(Arrays.toString(arr));
     }
 
     //Билет 15
