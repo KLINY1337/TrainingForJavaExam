@@ -1,3 +1,4 @@
+import ticket25.CustomStackOnList;
 import ticket26.CustomArrayList;
 import ticket29.CustomStack;
 
@@ -8,13 +9,21 @@ import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
-        CustomArrayList<Integer> arrayList = new CustomArrayList<>();
+        CustomStackOnList<Integer> stack = new CustomStackOnList<>();
 
-        arrayList.add(5);
-        arrayList.add(6);
-        arrayList.add(1);
+        stack.push(5);
+        stack.push(6);
+        stack.push(1);
+        stack.push(2);
+        System.out.println(stack.getArray().toString());
 
-        System.out.println(arrayList.getContainer().toString());
+        System.out.println(stack.peek());
+
+        stack.pop();
+        System.out.println(stack.peek());
+        stack.pop();
+
+        System.out.println(stack.getArray().toString());
     }
 
     //Билет 15
