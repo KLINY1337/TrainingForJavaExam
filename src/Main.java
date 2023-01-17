@@ -78,7 +78,7 @@ public class Main {
         }
         return false;
     }
-
+    // Билет 2
     public static Map<String, Integer> reverse(Map<Integer,String> map){
         Map<String,Integer> newMap = new HashMap<>();
 

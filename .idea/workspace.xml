@@ -29,21 +29,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -67,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673886816043</updated>
       <workItem from="1673886817750" duration="5144000" />
-      <workItem from="1673936160031" duration="20047000" />
+      <workItem from="1673936160031" duration="20588000" />
     </task>
     <task id="LOCAL-00001" summary="Билет 15 (Напишите метод splitStack, который принимает стек целых чисел...)">
       <created>1673888968385</created>
@@ -132,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673954500150</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Билет 4,2 (hasOdd, reverse)">
+      <created>1673958641058</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673958641058</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +173,8 @@
     <MESSAGE value="Билет 21 (Напишите универсальный класс для реализации алгоритмов поиска...)" />
     <MESSAGE value="Билет 14 (Напишите метод equals...)" />
     <MESSAGE value="Билет 9 (Напишите метод removeDuplicates, который можно добавить в класс LinkedIntList...)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Билет 9 (Напишите метод removeDuplicates, который можно добавить в класс LinkedIntList...)" />
+    <MESSAGE value="Билет 4,2 (hasOdd, reverse)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Билет 4,2 (hasOdd, reverse)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
